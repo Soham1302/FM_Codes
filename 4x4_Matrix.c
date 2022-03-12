@@ -19,6 +19,11 @@ printf("\n");
 }
 {
 int i,j,sum=0,a[4][4], first_sum=0, second_sum=0;
+  for(i = 0; i<4; i++){
+    for(j=0 ; j<4; j++){
+      sum = sum + mat[i][j];
+    }
+  }
 printf("\nThe sum of all the elements is: %d", sum);
 for(i=0;i<4;i++)
 {
